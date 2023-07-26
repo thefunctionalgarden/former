@@ -1,0 +1,17 @@
+{application, former,
+ [{description, "Minimal forms generator"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {former_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    cowboy,
+    trails
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["Apache-2.0"]},
+  {links, []}
+ ]}.
