@@ -14,7 +14,7 @@ How to use
 ```erlang
 TestForm1 = #{
     submit => #{
-        module => you_module_name, 
+        module => your_module_name, 
         function => your_function_name
     }
 },

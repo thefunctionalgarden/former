@@ -39,6 +39,7 @@
 
 start(Forms, HTTPPort) ->
 
+    {ok, _} = application:ensure_all_started(former),
     save_paths_data(Forms),
 
 
