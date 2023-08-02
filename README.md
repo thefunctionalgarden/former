@@ -27,9 +27,14 @@ How to use
 
 - open you browser: http://localhost:10100/former
 
+![image](https://github.com/thefunctionalgarden/former/assets/82588439/5bdc7111-153d-4b5c-8910-c772e156f6b8)
+
+
 
 Limitations
 -----
-- Function params are passed as bitstrings.
-- Layout of the form is currently very basic.
+- the layout of the form is currently very basic.
+- function params are passed as bitstrings.
+- function return is processed by jsx:encode(), be nice with it.
+- if you have 2 or more functions, the order of the functions in the form is a surprise.
 
