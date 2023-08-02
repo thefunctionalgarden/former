@@ -7,7 +7,7 @@ How to use
 -----
 - add the dependency to your project rebar.config
 ```erlang
-      {former, {git, "git@github.com:thefunctionalgarden/former.git", {branch, "main"}}}
+{former, {git, "git@github.com:thefunctionalgarden/former.git", {branch, "main"}}}
 ```
 
 - somewhere in you code declare the function you want to call, like this:
